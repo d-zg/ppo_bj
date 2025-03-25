@@ -21,8 +21,8 @@ eval_env = get_flattened_env(eval_env)
 model = PPO("MlpPolicy", env, device="cpu")
 
 # Set training parameters
-total_timesteps = 1000000
-eval_freq = 100000  # evaluate every 100 timesteps
+total_timesteps = 10000000
+eval_freq = 1000000  # evaluate every 100 timesteps
 
 # Lists to store timesteps and performance
 timesteps_list = []
