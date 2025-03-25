@@ -1,6 +1,8 @@
 import gymnasium as gym
 import numpy as np
 from sb3_utils import get_flattened_env
+# implements the with replacement optimal strategy (no hitting or doubling)
+
 
 def optimal_policy(obs):
     """
